@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containner{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    border: 1px solid red;
+    height: 10rem;
+    background-image: url(../task\ 3/) cornflowerblue no-repeat;
+}
+
+nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    /* margin-top: 1rem;
+    margin-bottom: 5rem; */
+    margin: 1rem 5rem 0;
+}
+
+nav img{
+    width: 5rem;
+}
+
+nav button{
+    background-color: #feffff;
+    border-radius: 18px;
+    width: 32%;
+    padding: 5px;
+    border: white;
+    box-shadow: -1px 2ox 10px 1px grey;
+}
+/* End of nav */
+
+/* start of hero-section */
+.hero-section{
+    border: 2px solid black;
+}
+
+.hero-content h2{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.hero-content{
+    width: ;
+}
+/* end of hero=section */
