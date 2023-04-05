@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containner{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    border: 1px solid red;
+    /* height: 10rem; */
+    background-image: url(../assets3/bg-hero-mobile.svg) #ECF9FF no-repeat;
+}
+
+nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    /* margin-top: 1rem;
+    margin-bottom: 5rem; */
+    margin: 1rem 0rem 1rem;
+}
+
+nav img{
+    width: 7rem;
+    padding-left: 1rem;
+}
+
+nav button{
+    background-color: red;
+    border-radius: 18px;
+    width: 20%;
+    padding: 1px;
+    border: blue;
+    box-shadow: -1px 2ox 10px 1px grey;
+}
+/* End of nav */
+
+/* start of hero-section */
+.hero-section{
+    border: 2px solid black;
+}
+
+.hero-content h2{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.hero-content p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 1.3rem;
+}
+
+.hero-content > button{
+    /* margin-top: 1rem; */
+    margin: 2rem 0 3rem 0;
+    height: 2.5rem;
+    border-radius: 10rem;
+    width: 32%;
+    padding: 5px;
+    border: white;
+    color: #ffffff;
+    background-color: hsl(322, 100%, 66%);
+
+}
+
+.hero-section img{
+    width: 19rem;
+    margin-bottom: 3rem;
+}
+/* end of hero=section */
+
+/* start on main */
+.main{
+    /* margin: 4rem; */
+    /* height: 50%; */
+    border: 1px solid red;
+}
+.cards{
+    border: 1px solid red;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: -1px 1px 5px 4px rgb(226, 225, 225);
+    height: 90%;
+}
+
+/* .card-1{
+    margin-top: 35rem;
+} */
+
+.cards img{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.cards h2{
+    padding: 1rem 0;
+}
+
+.cards p{
+    line-height: 1.5rem;
+    color: hsl(208, 11%, 55%);
+}
